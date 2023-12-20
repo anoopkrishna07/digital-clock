@@ -24,6 +24,9 @@ function App() {
       hour: 'numeric',
       minute: 'numeric',
       second: 'numeric',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
     };
     return new Intl.DateTimeFormat('en-US', options).format(date);
   };
